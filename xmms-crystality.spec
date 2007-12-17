@@ -13,7 +13,6 @@ Patch1: crystality-plugin-0.92-fix-crash.patch
 Patch2: crystality-plugin-0.92-gcc3.3.patch
 License: GPL
 Group: Sound
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
 BuildRequires: libxmms-devel
 URL: http://fanthom.math.put.poznan.pl/~gyver/crystality/
