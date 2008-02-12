@@ -19,7 +19,6 @@ BuildRequires: libxmms-devel
 URL: http://fanthom.math.put.poznan.pl/~gyver/crystality/
 
 %description
-
 This software consists of XMMS plugin and stdin/stdout plugin. It was
 written for realtime remastering of sound from mp3 files.  You will
 need a reasonably good stereo and a good ear to notice quality
