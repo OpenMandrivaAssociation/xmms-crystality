@@ -1,7 +1,7 @@
 %define name xmms-crystality
 %define oname crystality-plugin
 %define version 0.92
-%define release %mkrel 13
+%define release %mkrel 14
 
 Summary: Realtime plugin for remastering mp3 sound
 Name: %{name}
@@ -11,7 +11,7 @@ Source0: %{oname}-%{version}.tar.bz2
 Patch: crystality-plugin-0.92-optflags.patch
 Patch1: crystality-plugin-0.92-fix-crash.patch
 Patch2: crystality-plugin-0.92-gcc3.3.patch
-License: GPL
+License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
