@@ -1,7 +1,7 @@
 %define name xmms-crystality
 %define oname crystality-plugin
 %define version 0.92
-%define release %mkrel 14
+%define release %mkrel 15
 
 Summary: Realtime plugin for remastering mp3 sound
 Name: %{name}
