@@ -1,0 +1,11 @@
+--- Makefile~	Mon Aug 13 01:41:14 2001
++++ Makefile	Mon Dec 17 12:44:01 2001
+@@ -7,7 +7,7 @@
+ STDIO_PLUGIN=	crystality-stdio
+ STDIO_LIBS=	-lpthread $(shell gtk-config --libs)
+ 
+-CFLAGS= -s -mpentium -O6 -Wall -ffast-math -fomit-frame-pointer -finline-functions -fexpensive-optimizations $(GTK_CFLAGS)
++CFLAGS= $(OPTFLAGS) $(GTK_CFLAGS)
+ 
+ 
+ TARGETS=	$(XMMS_PLUGIN) $(STDIO_PLUGIN)

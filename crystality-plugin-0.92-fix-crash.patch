@@ -1,0 +1,11 @@
+--- xmms.c~	Mon Aug 13 01:44:05 2001
++++ xmms.c	Fri Mar  8 16:31:41 2002
+@@ -50,7 +50,7 @@
+     filename = g_strconcat(g_get_home_dir(), "/.xmms/config", NULL);
+     cfg = xmms_cfg_open_file(filename);
+ 
+-    if (xmms_cfg_read_int(cfg, "Extender-DSP", "expander", &bext_level)){
++    if (cfg && xmms_cfg_read_int(cfg, "Extender-DSP", "expander", &bext_level)){
+ 	xmms_cfg_read_int(cfg, "Extender-DSP", "echo", &echo_level);
+ 	xmms_cfg_read_int(cfg, "Extender-DSP", "stereo", &stereo_level);
+ 	xmms_cfg_read_int(cfg, "Extender-DSP", "filter", &filter_level);
