@@ -16,7 +16,7 @@ Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
 BuildRequires: libxmms-devel
-URL: http://fanthom.math.put.poznan.pl/~gyver/crystality/
+URL: https://fanthom.math.put.poznan.pl/~gyver/crystality/
 
 %description
 This software consists of XMMS plugin and stdin/stdout plugin. It was
