@@ -15,6 +15,7 @@ License: GPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
+BuildRequires:	make
 BuildRequires: libxmms-devel
 URL: https://fanthom.math.put.poznan.pl/~gyver/crystality/
 
